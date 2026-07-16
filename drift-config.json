@@ -1,0 +1,19 @@
+{
+  "window_turns": 15,
+  "cooldown_turns": 10,
+  "threshold": 4.0,
+  "loop_repeat_count": 3,
+  "loop_lookback": 6,
+  "thrash_turns_threshold": 6,
+  "soft_warning_ratio": 0.6,
+  "soft_cooldown_turns": 5,
+  "max_touched_files": 25,
+  "weights": {
+    "correction": 1.5,
+    "failure": 1.0,
+    "loop": 2.5,
+    "positive": -2.0,
+    "self_doubt": 1.0,
+    "thrash": 2.0
+  }
+}
